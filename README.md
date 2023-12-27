@@ -33,8 +33,8 @@ Install Active Directory Domain Services:  <br/>
 <img src="https://i.imgur.com/kiO5gv9.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Install Active Directory Domain Services:  <br/>
-- to establish admin account
+Configure Domain Controller:  <br/>
+- to establish admin access
 <img src="https://i.imgur.com/2hLveDw.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 
