@@ -18,6 +18,10 @@ Project consists of a simple PowerShell script that allows the user to create an
 <h2>Program walk-through:</h2>
 
 <p align="center">
+Project Blueprint:  <br/>
+<img src="https://i.imgur.com/vmuNAiR.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
 Create Virtual Machines:  <br/>
 <img src="https://i.imgur.com/zKBWfvt.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
@@ -25,8 +29,7 @@ Create Virtual Machines:  <br/>
 <img src="https://i.imgur.com/QyOx60u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <!--
