@@ -1,7 +1,7 @@
 <h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that allows the user to create an Active Directory home lab environment, using Oracle Virtual Box. Configuring and running this lab develops a solid foundation for how active directory and windows networking works.
+Project consists of a simple PowerShell script that allows the user to mass create users in an Active Directory home lab environment using Oracle Virtual Box. Configuring and running this lab helps develop a solid foundation for how active directory and windows networking work together.
 <br />
 
 
