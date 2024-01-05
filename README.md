@@ -59,7 +59,32 @@ Use Domain Controller as DNS Server:  <br/>
 <br />
 Text file with several randomly generated names:  <br/>
 - A user will be created for each one of the names on this list. <br/>
-<img src="https://i.imgur.com/cC0JxHe.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<img src="https://i.imgur.com/adSPtCA.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Enable execution of all scripts:  <br/>
+<img src="https://i.imgur.com/0nnAutm.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Run the CREATE_USERS Powershell script to create client users:  <br/>
+- Users will all use the same generic password "Password1". <br/>
+- "Get-Content" used to bring all names into an array. <br/>
+- "$password" takes generic password and creates a password object for it. <br/>
+- "New-ADOrganizationalUnit" creates a new organizational unit named "Users". <br/>
+- "Foreach" loop runs for each individual user in the text file and creates a username using the first initial of the user's first name and their entire last name. <br/>
+- "New-AdUser" creates a new user in Active Directory and assigns them the generic "Password1" and some credentials. <br/>
+<img src="https://i.imgur.com/8KrHwfh.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<img src="https://i.imgur.com/qxK5VMq.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Observe users being created:  <br/>
+<img src="https://i.imgur.com/1UMP6E6.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Create Windows 10 Virtual Machine for client users:  <br/>
+- 
+<img src="https://i.imgur.com/1UMP6E6.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 
 
