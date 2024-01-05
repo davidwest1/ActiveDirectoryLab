@@ -23,14 +23,14 @@ Project Blueprint:  <br/>
 <br />
 <br />
 Create Virtual Machines:  <br/>
+-One for Domain Controller and one for client
 <img src="https://i.imgur.com/zKBWfvt.png" height="80%" width="80%" alt="Active Directory Steps"/>
-<br />
 <br />
 <img src="https://i.imgur.com/QyOx60u.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
 Install Active Directory Domain Services:  <br/>
-<img src="https://i.imgur.com/kiO5gv9.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<img src="https://i.imgur.com/kiO5gv9.png?2" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
 Configure Domain Controller:  <br/>
@@ -82,9 +82,8 @@ Observe users being created:  <br/>
 <img src="https://i.imgur.com/1UMP6E6.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Create Windows 10 Virtual Machine for client users:  <br/>
-- 
-<img src="https://i.imgur.com/1UMP6E6.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Ensure client machine can ping to internet:  <br/>
+<img src="https://i.imgur.com/ToOfcNE.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 
 
