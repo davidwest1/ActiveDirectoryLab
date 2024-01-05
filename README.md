@@ -37,6 +37,31 @@ Configure Domain Controller:  <br/>
 - to establish admin access
 <img src="https://i.imgur.com/2hLveDw.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
+<br />
+Create an Organizational Unit to house our personally created admin account:  <br/>
+- Create New User > Name user > "Properties" > "Member of" > Add to "Domain Admins"
+<img src="https://i.imgur.com/SSbLS2t.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Configure Remote Access and install NAT on internet interface:  <br/>
+<img src="https://i.imgur.com/QGblLb6.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Set up DHCP Server on the Domain Controller:  <br/>
+- Allows Windows 10 Clients to get an IP address that will let them browse the internet even though they are on this private internal network. <br/>
+- Add scope range to ensure that clients are assigned IP addresses within the specified range.
+<img src="https://i.imgur.com/ZknBGwj.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Use Domain Controller as DNS Server:  <br/>
+<img src="https://i.imgur.com/cC0JxHe.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Text file with several randomly generated names:  <br/>
+- A user will be created for each one of the names on this list. <br/>
+<img src="https://i.imgur.com/cC0JxHe.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+
 
 </p>
 
