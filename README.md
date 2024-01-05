@@ -34,7 +34,7 @@ Install Active Directory Domain Services:  <br/>
 <br />
 <br />
 Configure Domain Controller:  <br/>
-- to establish admin access
+- To establish admin access
 <img src="https://i.imgur.com/2hLveDw.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
@@ -48,7 +48,7 @@ Configure Remote Access and install NAT on internet interface:  <br/>
 <br />
 <br />
 Set up DHCP Server on the Domain Controller:  <br/>
-- Allows Windows 10 Clients to get an IP address that will let them browse the internet even though they are on this private internal network. <br/>
+- Allows Windows 10 Clients to get an IP address that will let them browse the internet even though they are on the private internal network. <br/>
 - Add scope range to ensure that clients are assigned IP addresses within the specified range.
 <img src="https://i.imgur.com/ZknBGwj.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
@@ -82,8 +82,16 @@ Observe users being created:  <br/>
 <img src="https://i.imgur.com/1UMP6E6.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Ensure client machine can ping to internet:  <br/>
+Ensure the client machine can ping to the internet:  <br/>
 <img src="https://i.imgur.com/ToOfcNE.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Observe that the client machine is joined with the domain:  <br/>
+<img src="https://i.imgur.com/gq8xJpr.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Use any one of the several logins that were created to access the Windows 10 machine:  <br/>
+<img src="https://i.imgur.com/mpZyyMq.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 
 
